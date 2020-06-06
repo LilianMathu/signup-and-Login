@@ -25,7 +25,7 @@ mongoose.connect(db, { useNewUrlParser: true, useCreateIndex: true, useUnifiedTo
     });
 
 // Install routes as middleware. The second argument is a handler
-app.use('/users', userRoutes);
+app.use('/user', userRoutes);
 
 
 module.exports = app;
